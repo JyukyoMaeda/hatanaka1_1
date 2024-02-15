@@ -18,6 +18,8 @@ if(location.protocol == 'http:') {
 </script>
 <meta charset="utf-8">
 <title>グランシア新座　新座市畑中1丁目1期</title>
+<link rel="icon" href="images/favicon.ico">
+<link rel="apple-touch-icon" type="image/png" href="images/apple-touch-icon.png">
 <meta name="viewport" content="width=device-width">
 <meta name="keywords" content="新座市,畑中,新築,グランシア,住協">
 <meta name="description" content="土地面積30坪以上。選んで自在にコーディネイトする簡単自由設計。専属設計士と相談しながらマイホームが作れます。仲介手数料不要。">
@@ -182,8 +184,9 @@ $(function() {
 			</h1>
 			<div id="" class="l-contents -img-bg l-mgb_10 -s_5">
 				<div class="imgBox">
-					<img class="pc" src="images/20230827/top_bg.jpg" alt="">
-					<img class="sp" src="images/20230827/top_bg_s.jpg" alt="">
+					<!-- 2024_0215_修正 -->
+					<img class="pc" src="images/20240215/top_bg.jpg" alt="">
+					<img class="sp" src="images/20240215/top_bg_s.jpg" alt="">
 				</div>
 				<div class="l-contentsBox -top_btn">
 					<a class="l-linkImg -p03" href="https://www.jyu-g.co.jp/contents/tour?checkid=712734207">
@@ -200,7 +203,40 @@ $(function() {
 		<article>
 				<!-- <div id="kukaku"><img class="none-s" src="images/kukaku.jpg" alt=""/><img class="none-p" src="images/kukaku_s.jpg" alt=""/></div> -->
 				<div><img class="none-s" src="images/no01.jpg" alt=""/><img class="none-p" src="images/no01_s.jpg" alt=""/></div>
-				<div><img class="none-s" src="images/no07.jpg" alt=""/><img class="none-p" src="images/no07_s.jpg" alt=""/></div>
+
+				<!-- 2024_0215_修正 -->
+				<div class="c-contents -imgBg">
+					<div class="imgBox"><img class="none-s" src="images/no07.jpg" alt=""/><img class="none-p" src="images/no07_s.jpg" alt=""/></div>
+					<div class="c-contentsBox -soldOut">
+						<img src="images/20240215/soldout.png" alt="完売御礼 | おかげさまでお契約いただいきました！">
+					</div>
+				</div>
+				<style>
+					.c-contents {
+						position: relative;
+					}
+					.c-contents .c-contentsBox.-soldOut {
+						position: absolute;
+						top: 27%;
+						left: 49%;
+						transform: rotate(-5deg) translate(-50%, -50%);
+						width: 50%;
+						z-index: 99;
+						filter: drop-shadow(1px 1px 2px rgb(128, 128, 128));
+					}
+					.c-contents .c-contentsBox.-soldOut img {
+						background: #bd2b31;
+					}
+					@media (width >= 768px) {
+						.c-contents .c-contentsBox.-soldOut {
+							top: 40%;
+							left: 80%;
+							width: 20%;
+						}
+					}
+				</style>
+
+
 				<div><img class="none-s" src="images/no11.jpg" alt=""/><img class="none-p" src="images/no11_s.jpg" alt=""/></div>
 				<div class="contact">
 						<div class="contents1200">
