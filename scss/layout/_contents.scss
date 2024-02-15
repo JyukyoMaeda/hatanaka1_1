@@ -85,12 +85,14 @@
 				}
 			}
 			&.-top_btn{
-				top: 19%;
+				// top: 19%;
+				top: 27%;
 				left: 50%;
 				transform: translate(-50%,-50%);
 				width: 90%;
 				@include mq(tb){
-					top: 16%;
+					// top: 16%;
+					top: 25%;
 					width: 66.5%;
 				}
 			}

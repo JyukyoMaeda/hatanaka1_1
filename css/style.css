@@ -466,14 +466,14 @@ img {
   }
 }
 .l-contents.-img-bg .l-contentsBox.-top_btn {
-  top: 19%;
+  top: 27%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 90%;
 }
 @media screen and (min-width: 767px) {
   .l-contents.-img-bg .l-contentsBox.-top_btn {
-    top: 16%;
+    top: 25%;
     width: 66.5%;
   }
 }
